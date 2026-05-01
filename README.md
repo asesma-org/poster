@@ -1,13 +1,10 @@
-# ASESMA Poster (v3 - rebuilt with real photo and ASESMA logo)
+# ASESMA Poster
 
-A 24 in by 36 in portrait poster for hanging in an academic hallway and a public library, designed in an Africa-inspired palette of black, brown, terracotta, ochre, gold, deep red, and forest green.
+A 24 in by 36 in portrait poster for hanging in public spaces.
 
 ## Files
 
 - `ASESMA_poster_24x36.svg` - editable vector source, exact size `24in x 36in`.
-- `ASESMA_poster_24x36.pdf` - print-ready PDF.
-- `ASESMA_poster_24x36_300dpi.png` - high-resolution PNG, `7200 x 10800` (300 dpi).
-- `ASESMA_poster_24x36_preview.png` - screen preview, `2400 x 3600` (100 dpi).
 - `build_poster.py` - script that regenerates the SVG from the source assets.
 - `assets/`:
   - `asesma_logo.png` - simple ASESMA logo (Africa outline + colored letters), used in the hero.
