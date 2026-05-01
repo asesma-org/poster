@@ -1,6 +1,6 @@
-# ASESMA Poster (v3 - rebuilt with real photo and ASESMA logo)
+# ASESMA Poster
 
-A 24 in by 36 in portrait poster for hanging in an academic hallway and a public library, designed in an Africa-inspired palette of black, brown, terracotta, ochre, gold, deep red, and forest green.
+A 24 in by 36 in portrait poster for hanging inpublic space.
 
 ## Files
 
@@ -10,12 +10,12 @@ A 24 in by 36 in portrait poster for hanging in an academic hallway and a public
 - `ASESMA_poster_24x36_preview.png` - screen preview, `2400 x 3600` (100 dpi).
 - `build_poster.py` - script that regenerates the SVG from the source assets.
 - `assets/`:
-  - `asesma_logo.png` - simple ASESMA logo (Africa outline + colored letters), used in the hero.
+  - `asesma_logo.png` - simple ASESMA logo (Africa outline + colored letters).
   - `photo_tutoring.png` - real photograph extracted from the ASESMA brochure showing tutors and students at hands-on tutorials.
   - `photo_lecture.png`, `photo_group2025.png` - additional real ASESMA photographs available for re-use.
   - `qr_website.svg`, `qr_github.svg`, `qr_youtube.svg`, `qr_mini2026.svg` - real, scannable QR codes.
 
-## Sections (no overlaps, generous typography)
+## Sections
 
 1. What ASESMA is and why it matters - paragraph + Adinkra-style stats panel.
 2. Upcoming events - timeline with mini-ASESMA Ghana 2026, ASESMA Dakar 2027, and year-round online activities. Year labels are placed clearly above each marker; place and subtitle are clearly below.
