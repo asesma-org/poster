@@ -1,6 +1,6 @@
-# ASESMA Poster
+# ASESMA Poster (v3 - rebuilt with real photo and ASESMA logo)
 
-A 24 in by 36 in portrait poster for hanging inpublic space.
+A 24 in by 36 in portrait poster for hanging in an academic hallway and a public library, designed in an Africa-inspired palette of black, brown, terracotta, ochre, gold, deep red, and forest green.
 
 ## Files
 
@@ -10,12 +10,12 @@ A 24 in by 36 in portrait poster for hanging inpublic space.
 - `ASESMA_poster_24x36_preview.png` - screen preview, `2400 x 3600` (100 dpi).
 - `build_poster.py` - script that regenerates the SVG from the source assets.
 - `assets/`:
-  - `asesma_logo.png` - simple ASESMA logo (Africa outline + colored letters).
+  - `asesma_logo.png` - simple ASESMA logo (Africa outline + colored letters), used in the hero.
   - `photo_tutoring.png` - real photograph extracted from the ASESMA brochure showing tutors and students at hands-on tutorials.
   - `photo_lecture.png`, `photo_group2025.png` - additional real ASESMA photographs available for re-use.
   - `qr_website.svg`, `qr_github.svg`, `qr_youtube.svg`, `qr_mini2026.svg` - real, scannable QR codes.
 
-## Sections
+## Sections (no overlaps, generous typography)
 
 1. What ASESMA is and why it matters - paragraph + Adinkra-style stats panel.
 2. Upcoming events - timeline with mini-ASESMA Ghana 2026, ASESMA Dakar 2027, and year-round online activities. Year labels are placed clearly above each marker; place and subtitle are clearly below.
@@ -29,16 +29,22 @@ A 24 in by 36 in portrait poster for hanging inpublic space.
 python build_poster.py
 ```
 
-Generate a PNG preview at any resolution (replace `WIDTH` and `HEIGHT`):
+Generate a PNG preview while preserving poster proportions (set only one dimension):
 
 ```bash
-rsvg-convert -f png -w WIDTH -h HEIGHT -o poster_preview.png ASESMA_poster_24x36.svg
+rsvg-convert -f png -w 1600 -o poster_preview_w1600.png ASESMA_poster_24x36.svg
 ```
 
-Example:
+Equivalent option using only height:
 
 ```bash
-rsvg-convert -f png -w 1600 -h 2400 -o poster_preview_1600x2400.png ASESMA_poster_24x36.svg
+rsvg-convert -f png -h 2400 -o poster_preview_h2400.png ASESMA_poster_24x36.svg
+```
+
+Generate PNG by a single DPI value (recommended for print sizing, keeps 24x36 ratio):
+
+```bash
+rsvg-convert -f png --dpi 300 -o ASESMA_poster_24x36_300dpi.png ASESMA_poster_24x36.svg
 ```
 
 Generate a print-ready PDF:
