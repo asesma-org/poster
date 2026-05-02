@@ -315,7 +315,7 @@ parts.append(txt(155, S1_Y + 170, [
     "ASESMA trains African researchers in computational material",      # 94.4%  6 gaps
     "science through biennial schools. Intensive lectures, hands-on",    # 96.0%  7 gaps
     "tutorials, and team projects on electronic structure, DFT, and",   # 92.1%  8 gaps
-    "atomistic simulation methods. Across all Africani nations",    # 96.8%  7 gaps
+    "atomistic simulation methods. Across all African nations",    # 96.8%  7 gaps
     "(17 so far!). Building skills, lasting research networks, and",  # 94.4%  LAST
     "training talent to lead Africa's tech future.",  # 94.4%  LAST
 ], color=INK, size=46, weight=500, lh=56, justify=True,
@@ -364,7 +364,7 @@ def milestone(cx: int, color: str, year: str, place: str, sub: str) -> str:
         f'<text x="{cx}" y="{cy+122}" text-anchor="middle" font-family="{FONT}" font-size="28" font-weight="500" fill="{INK}">{sub}</text>'
     )
 
-parts.append(milestone(560,  OCHRE, "JUNE 2026",   "University of Ghana, Accra", "mini-ASESMA · quantum simulation"))
+parts.append(milestone(560,  OCHRE, "JUNE 2026",   "University of Ghana, Accra", "mini-ASESMA · quantum simulations"))
 parts.append(milestone(1210, RED,   "SUMMER 2027", "Dakar, Senegal",             "Full ASESMA edition (planned)"))
 parts.append(milestone(1920, GREEN, "YEAR-ROUND",  "Online · ASESMANET",         "Mini-lectures and exchanges"))
 
